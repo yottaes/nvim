@@ -5,6 +5,13 @@ local g = vim.g
 return {
 
   {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin-mocha",
+    },
+  },
+
+  {
     "ellisonleao/gruvbox.nvim",
   },
 
@@ -12,6 +19,7 @@ return {
     "eldritch-theme/eldritch.nvim",
     config = function()
       require("eldritch").setup({
+
         palette = "default",
         terminal_colors = true,
       })
@@ -71,10 +79,4 @@ return {
   },
   { "EdenEast/nightfox.nvim" },
   -- Lua
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox-material",
-    },
-  },
 }
