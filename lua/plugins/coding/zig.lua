@@ -12,7 +12,7 @@ return {
               -- Other zls specific settings
             },
           },
-          cmd = { "${HOME}/.zvm/bin/zls" },
+          cmd = { vim.fn.expand("$HOME/.zvm/bin/zls") },
         },
       },
     },
