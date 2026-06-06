@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 -- Don't auto-change cwd to git root — use the directory you opened nvim from
+
 vim.g.root_spec = { "cwd" }
 
 vim.opt.scrolloff = 15
